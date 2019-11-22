@@ -33,15 +33,15 @@ nodes.customNodeObj = {
 nodes.nodeList = {
   'ella': {
     'name': 'ELLA',
-    'blockExplorerTX': 'https://explorer.ellaism.org/tx/[[txHash]]',
-    'blockExplorerAddr': 'https://explorer.ellaism.org/addr/[[address]]',
+    'blockExplorerTX': 'https://explorer.ellaism.io[[txHash]]',
+    'blockExplorerAddr': 'https://explorer.ellaism.io[[address]]',
     'type': nodes.nodeTypes.ELLA,
     'eip155': true,
     'chainId': 64,
     'tokenList': require('./tokens/ellaTokens.json'),
     'abiList': require('./abiDefinitions/ellaAbi.json'),
     'service': 'ellaism.org',
-    'lib': new nodes.customNode('https://jsonrpc.ellaism.org', '')
+    'lib': new nodes.customNode('https://jsonrpc.ellaism.io', '')
   },
   'ella-testnet': {
     'name': 'ELLA Testnet',
