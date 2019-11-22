@@ -40,7 +40,7 @@ nodes.nodeList = {
     'chainId': 64,
     'tokenList': require('./tokens/ellaTokens.json'),
     'abiList': require('./abiDefinitions/ellaAbi.json'),
-    'service': 'ellaism.org',
+    'service': 'ellaism.io',
     'lib': new nodes.customNode('https://jsonrpc.ellaism.io', '')
   },
   'ella-testnet': {
